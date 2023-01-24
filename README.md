@@ -2,7 +2,6 @@
 
 ##zephyr os module app example
 
-
 ======================================================================
 mkdir wrk
 cd wrk
