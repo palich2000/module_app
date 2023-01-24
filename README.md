@@ -21,9 +21,13 @@ minicom -D /dev/ttyACM0 -b 115200
 
 
 *** Booting Zephyr OS build 3b7e7575a926 ***
+
 Hello libsample 1.0 2.14
+
 [00:00:01.390,000] <inf> module_app: My first MCU program
+
 [00:00:01.390,000] <inf> module_app: Starting! esp32
+
 uart:~$.
 
 success !
