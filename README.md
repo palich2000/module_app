@@ -1,5 +1,6 @@
-# module_app
-zephyr os module app example
+### module_app
+
+##zephyr os module app example
 
 mkdir wrk
 cd wrk
@@ -14,6 +15,7 @@ minicom -D /dev/ttyACM0 -b 115200
 Hello libsample 1.0 2.14
 [00:00:01.390,000] <inf> module_app: My first MCU program
 [00:00:01.390,000] <inf> module_app: Starting! esp32
-uart:~$ 
+uart:~$.
 
 success !
+
