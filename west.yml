@@ -1,0 +1,31 @@
+manifest:
+
+  projects:
+    - name: zephyr
+      url: https://github.com/zephyrproject-rtos/zephyr
+      revision: main
+      path: zephyr
+      west-commands: scripts/west-commands.yml
+      import:
+        name-allowlist:
+          - cmsis
+          - hal_espressif
+
+    - name: module-libjansson
+      url: git@github.com:palich2000/jansson.git
+      revision: main
+      path: modules/lib/jansson2
+
+    - name: module-libmsgpackc
+      url: git@github.com:palich2000/msgpackc.git
+      revision: main
+      path: modules/lib/msgpackc
+
+    - name: module-sample
+      url: https://github.com/yashi/module-sample
+      revision: main
+      path: modules/lib/sample
+
+  self:
+    path: main-project
+
